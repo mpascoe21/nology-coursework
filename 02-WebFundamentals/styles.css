@@ -9,6 +9,14 @@
   background-color: #1182eb;
 }
 
+a:link {
+  color: hsl(246, 98%, 50%);
+}
+
+a:visited {
+  color: #ff00c8;
+}
+
 body {
   background-color: white;
   max-width: 1400px;
@@ -36,6 +44,12 @@ header h1 {
   background-color: white;
   color: midnightblue;
   box-shadow: 5px 5px 5px 5px lightgray;
+  opacity: 0.5;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  opacity: 1;
 }
 
 .card img {
@@ -55,6 +69,10 @@ h6 {
 
 #penelope-list {
   list-style-type: none;
+}
+
+li:hover {
+  color: #1182eb;
 }
 
 span {
