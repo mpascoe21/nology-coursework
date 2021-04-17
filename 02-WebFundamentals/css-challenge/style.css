@@ -1,0 +1,83 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444343;
+}
+
+.flags {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+/* German Flag */
+
+.german-flag {
+  height: 300px;
+  width: 500px;
+  position: relative;
+}
+
+.black {
+  background-color: black;
+  width: 500px;
+  height: 100px;
+}
+
+.h-red {
+  background-color: red;
+  width: 500px;
+  height: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 500px;
+  height: 100px;
+}
+
+/* Hungarian Flag */
+
+.german-flag:hover .black {
+  background-color: #ce2939;
+}
+.german-flag:hover .h-red {
+  background-color: #fff;
+}
+
+.german-flag:hover .yellow {
+  background-color: #477050;
+}
+
+/* French Flag */
+
+.french-flag {
+  height: 300px;
+  width: 450px;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
+
+.blue {
+  background-color: #0055a4;
+  height: 300px;
+  width: 150px;
+  position: absolute;
+  left: 0px;
+}
+
+.v-red {
+  background-color: #ef4135;
+  height: 300px;
+  width: 150px;
+  position: absolute;
+  right: 0px;
+}
+
+/* Irish Flag */
+
+.french-flag:hover .blue {
+  background-color: #169b62;
+}
+.french-flag:hover .v-red {
+  background-color: #ff883e;
+}
