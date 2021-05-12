@@ -43,6 +43,7 @@ main {
 
 .panel ul {
   display: flex;
+  padding-left: 0;
 }
 
 .panel li {
@@ -55,6 +56,14 @@ main {
 
 .top {
   justify-content: space-around;
+}
+
+.middle {
+  justify-content: flex-end;
+}
+
+.bottom {
+  justify-content: flex-start;
 }
 
 .right {
