@@ -1,5 +1,5 @@
 .header {
-  height: 70vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -11,4 +11,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section {
+  height: 40vh;
+  margin-bottom: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }

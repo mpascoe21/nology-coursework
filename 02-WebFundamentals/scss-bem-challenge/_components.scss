@@ -27,11 +27,17 @@
   &--form {
     width: 100%;
     background-color: $color-primary-light;
+  }
 
+  &--log-out {
+    background-color: $color-white;
+    color: $color-black;
+    border: 2px solid $color-primary-light;
+    margin: 0 auto;
   }
 }
 
-.intro {    
+.intro {   
   text-align: center;
 
   &__heading {
@@ -63,5 +69,19 @@
   
   &__input {
     margin-bottom: 20px;
+  }
+}
+
+
+.footer {
+  height: 10vh;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-primary;
+
+  &__item {
+    color: $color-white;
   }
 }
