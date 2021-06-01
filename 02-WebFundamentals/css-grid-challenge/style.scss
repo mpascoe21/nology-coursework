@@ -33,6 +33,7 @@ div:nth-child(2) {
 /* row-span not working */
 div:nth-child(3) {
   grid-area: 2 / 1 / span 2 / span 1;
+  height: 100%;
 }
 
 div:nth-child(4) {
