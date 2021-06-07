@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: #8675a9;
+}
+
+[class^="con"] {
+  background-color: #c3aed6;
+  margin-bottom: 5px;
+}
+
+[class^="row"] {
+  padding: 5px;
+  min-height: 200px;
+}
+
+[class^="col"] {
+  background-color: #ffd5cd;
+  color: #8675a9;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid #c3aed6;
+  min-height: 150px;
+}
